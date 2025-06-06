@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WoTrugYRiL634C7aufxJfg1ASku8jcjHnt0bulfL4Mc=",
+  "Source": "JwtMySql",
+  "BasePath": "_content/JwtMySql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

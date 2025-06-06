@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JwtMySql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85f4714318edb2d2acc7bd08c29916d137089308")]
 [assembly: System.Reflection.AssemblyProductAttribute("JwtMySql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JwtMySql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
