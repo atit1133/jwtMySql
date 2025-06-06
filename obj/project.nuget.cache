@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "j1jJK6mL2Bs=",
+  "dgSpecHash": "FikozQyqqSA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Naruemon Aemwong\\OneDrive\\Desktop\\Projects\\jwtDotnet5\\JwtMySql\\JwtMySql.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Naruemon Aemwong\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Naruemon Aemwong\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Naruemon Aemwong\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.16\\microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512",
     "C:\\Users\\Naruemon Aemwong\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.13\\microsoft.aspnetcore.openapi.8.0.13.nupkg.sha512",

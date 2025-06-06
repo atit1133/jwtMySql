@@ -3,6 +3,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
 using JwtMySql;
+using JwtMySql.Services;
+using JwtMySql.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +39,7 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IUserService, UserService>(); //create service for user management
 
 var app = builder.Build();
 
@@ -49,9 +52,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapControllers();
-app.UseAuthentication();
-app.UseAuthorization();
+app.UseAuthentication(); //run authentication middleware first
+app.UseAuthorization(); //run authorization middleware after authentication
+app.MapControllers(); //run controllers lastest
+ 
 
 app.Run();
 
